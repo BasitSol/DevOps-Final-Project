@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend  # Tells Docker Compose to build the image from the backend/ directory
+    ports:
+      - "5000:5000" # Maps host port 5000 to container port 5000
+    volumes:
+      - ./backend:/app # Mounts the host's backend directory to /app in the container. Useful for development, changes on host reflect in container.
+    restart: always # Automatically restart the backend service if it stops
+
+  frontend:
+    image: nginx:alpine # Uses the official Nginx Alpine image
+    ports:
+      - "8090:80" # Maps host port 8080 to container port 80 (Nginx's default)
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro # Mounts the host's frontend directory to Nginx's web root as read-only.
+    depends_on:
+      - backend # Ensures the backend service starts before the frontend service
