@@ -12,7 +12,7 @@ pipeline {
         stage('Clone') {
             steps {
                 // Clone the Git repository. Jenkins automatically injects credentials if configured for the repo URL.
-                git 'https://github.com/BasitSol/DevOps-Final-Project'
+                git 'https://github.com/BasitSol/DevOps-Final-Project.git'
             }
         }
 
