@@ -11,6 +11,7 @@ pipeline {
     stages {
         stage('Build Docker Image') {
             steps {
+                //This is gonna be the last one to build for
                 // Execute a shell command to build the Docker image
                 // The Dockerfile is located in the 'backend' directory relative to the repository root
                 sh 'docker build -t $DOCKER_IMAGE ./backend'
