@@ -9,8 +9,6 @@ pipeline {
     }
 
     stages {
-            {
-            }
         stage('Build Docker Image') {
             steps {
                 //This is gonna be the last one to build for
