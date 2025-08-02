@@ -2,6 +2,7 @@ pipeline {
     agent any // Specifies that the pipeline can run on any available agent
 
     environment {
+        //Test
         // Defined environment variables to be used in the pipeline
         DOCKER_IMAGE = 'basitdock09/final-devops-dhub'
         //This is test
