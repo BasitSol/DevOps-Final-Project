@@ -9,9 +9,6 @@ pipeline {
     }
 
     stages {
-        
-        }
-
         stage('Build Docker Image') {
             steps {
                 // Execute a shell command to build the Docker image
@@ -33,3 +30,4 @@ pipeline {
         }
     }
 }
+
