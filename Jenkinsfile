@@ -4,6 +4,7 @@ pipeline {
     environment {
         // Defined environment variables to be used in the pipeline
         DOCKER_IMAGE = 'basitdock09/final-devops-dhub'
+        //This is test
         // This is the ID of the 'Username with password' credential created in Jenkins
         DOCKER_CREDENTIALS_ID = 'docker-hub-creds'
     }
