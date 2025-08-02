@@ -6,7 +6,7 @@ import traceback
 
 app = Flask(__name__)
 CORS(app)
-
+#This is just comment for the pipeline test
 # Load your trained model
 try:
     model = joblib.load('Cancer_Detection.pkl')
