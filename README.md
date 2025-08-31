@@ -84,23 +84,23 @@ cron
 ```
 0 0 * * * /home/ubuntu/final-devOps/backup_logs.sh >> /home/ubuntu/cron.log 2>&1
 ```
-📊 Summary
-Phase	Task<br>
+📊** Summary**
+Phase	Task<br><br>
 1	Dockerized Frontend + Backend	✅ Complete <br>
 2	CI/CD Pipeline (GitHub → Jenkins)	✅ Complete <br>
 3	EC2 Live Deployment	✅ Complete <br>
 4	Log Backup to AWS S3	✅ Complete
 
-✨ Optional Future Upgrades
+✨ **Optional Future Upgrades** <br><br>
 🔐 HTTPS via Nginx + Certbot
 
 ☁️ Centralized monitoring with AWS CloudWatch
 
-🔄 Auto-deployment from Jenkins to EC2
+🔄 **Auto-deployment from Jenkins to EC2**
 
 🕵️ Load testing using Locust or k6
 
-## 👨‍💻 Author  
+## 👨‍💻 **Author** <br>  
 
 **Muhammad Basit Khurshid** <br>
 Bachelor of Information Technology <br>
