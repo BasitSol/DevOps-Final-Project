@@ -86,9 +86,9 @@ cron
 ```
 📊 Summary
 Phase	Task	Status
-1	Dockerized Frontend + Backend	✅ Complete
-2	CI/CD Pipeline (GitHub → Jenkins)	✅ Complete
-3	EC2 Live Deployment	✅ Complete
+1	Dockerized Frontend + Backend	✅ Complete <br>
+2	CI/CD Pipeline (GitHub → Jenkins)	✅ Complete <br>
+3	EC2 Live Deployment	✅ Complete <br>
 4	Log Backup to AWS S3	✅ Complete
 
 ✨ Optional Future Upgrades
