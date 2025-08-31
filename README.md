@@ -100,8 +100,8 @@ Phase	Task	Status
 
 🕵️ Load testing using Locust or k6
 
-👨‍💻 Author
-Muhammad Basit Khurshid
-Bachelor of Information Technology
-Punjab University, Lahore
+##👨‍💻 Author
+**Muhammad Basit Khurshid**
+**Bachelor of Information Technology**
+**Punjab University, Lahore**
 📧 mbasitkhan10@gmail.com
