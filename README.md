@@ -85,7 +85,7 @@ cron
 0 0 * * * /home/ubuntu/final-devOps/backup_logs.sh >> /home/ubuntu/cron.log 2>&1
 ```
 📊 Summary
-Phase	Task	Status
+Phase	Task<br>
 1	Dockerized Frontend + Backend	✅ Complete <br>
 2	CI/CD Pipeline (GitHub → Jenkins)	✅ Complete <br>
 3	EC2 Live Deployment	✅ Complete <br>
