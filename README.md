@@ -84,7 +84,7 @@ cron
 ```
 0 0 * * * /home/ubuntu/final-devOps/backup_logs.sh >> /home/ubuntu/cron.log 2>&1
 ```
-📊** Summary**
+📊 Summary
 Phase	Task<br><br>
 1	Dockerized Frontend + Backend	✅ Complete <br>
 2	CI/CD Pipeline (GitHub → Jenkins)	✅ Complete <br>
@@ -96,7 +96,7 @@ Phase	Task<br><br>
 
 ☁️ Centralized monitoring with AWS CloudWatch
 
-🔄 **Auto-deployment from Jenkins to EC2**
+🔄 Auto-deployment from Jenkins to EC2
 
 🕵️ Load testing using Locust or k6
 
